@@ -1,0 +1,6 @@
+framework module UIKitExtra {
+  umbrella header "UIKitExtra-umbrella.h"
+
+  export *
+  module * { export * }
+}
