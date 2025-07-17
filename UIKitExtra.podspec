@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitExtra'
-  s.version          = '1.0.0'
+  s.version          = '1.2.0'
   s.summary          = 'A short description of UIKitExtra.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    部分UI控件扩展
                        DESC
 
   s.homepage         = 'https://github.com/develop-git/UIKitExtra'

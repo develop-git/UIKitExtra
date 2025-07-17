@@ -90,10 +90,12 @@ public extension UIKitSetting where Base : UIButton {
     /// 设置button标题
     /// - Parameters:
     ///   - title: title
+    ///   - color: 字体颜色
     ///   - state: 状态
     @discardableResult
-    func title(_ title: String?, for state: UIControl.State = .normal) -> Self {
+    func title(_ title: String?, color: UIColor = .blue, for state: UIControl.State = .normal) -> Self {
         self.base.setTitle(title, for: state)
+        self.base.setTitleColor(color, for: state)
         return self
     }
     

@@ -206,28 +206,6 @@ public extension UIKitSetting where Base == Array<UIView> {
     }
 }
 
-public extension UIView {
-    /// 将多个目标视图添加本视图上
-    /// - Parameters:
-    ///   - views: 目标视图集合
-    @discardableResult
-    func addSubviews(_ views: UIView...) -> Self {
-        views.forEach {
-            self.addSubview($0)
-        }
-        return self
-    }
-    
-    /// 将视图添加到目标视图上
-    /// - Parameters:
-    ///   - view: 目标视图
-    @discardableResult
-    func add(to view: UIView) -> Self {
-        view.addSubview(self)
-        return self
-    }
-}
-
 public extension UIKitSetting where Base : UIView {
     
     /// 设置视图按角度旋转
